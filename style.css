@@ -749,7 +749,8 @@ flex-direction: row;
 
   #cart{
     border: 1px solid black;
-    
+    display: flex;
+    justify-content: center;
   }
 
   #cart .heading{
