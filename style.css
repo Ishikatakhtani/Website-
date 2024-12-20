@@ -711,7 +711,7 @@ flex-direction: row;
   
   .product-image img {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     /* border-radius: 10px; */
     
   }
@@ -745,3 +745,16 @@ flex-direction: row;
     color: #333;
     margin-top: 10px;
   }
+
+
+  #cart{
+    border: 1px solid black;
+    
+  }
+
+  #cart .heading{
+   
+    gap: 40px; 
+    display: flex;
+    justify-content: row;
+}
