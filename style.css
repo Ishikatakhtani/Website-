@@ -62,7 +62,7 @@ label #cancel{
     align-items: center;
 }
     #Home .content1{
-    color: rgb(43, 195, 12);
+      color:white;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -70,16 +70,11 @@ label #cancel{
     justify-content: center;
     font-size: 40px;
 } 
+
 #Home  .content2{
-    color:white;
+    color:orangered;
     text-align: center;
-    font-size: 50px;
-} 
-#Home  .content2{
-    color:white;
-    text-align: center;
-    font-size: 50px;
-    
+    font-size: 50px;  
 } 
 #Home  button {
     background-color: #f28123;
@@ -226,7 +221,6 @@ width: 500px;
     width: 100%;
     background-color: #f5f5ff;
 padding-left: 250px;
-
 }
 #Home8 .Discount{
     display: flex;
@@ -365,16 +359,11 @@ padding-left: 50px;
   #foot .footer-container {
     display: flex;
     justify-content: space-evenly;
-   /* gap: 90px; */
     flex-wrap: wrap;
-   
-   
-    /* size:200px; */
   }
   #foot .footer-section{
     max-width: 400px;
     margin: 10px;
-    
   }
   #foot .footer-section .pp{
     font-size: 50px;
@@ -397,21 +386,17 @@ padding-left: 50px;
     color: orange;
     font-weight: 80px;
     padding-bottom: 50px;
-    
   }
 
   #foot .footersection2 ul {
     list-style: none;
-
   }
   #foot .footersection2 ul li{
      margin: 15px 0;
      text-align: left;
-     
   }
   
   #foot .footersection2 ul li a {
-    
     font-size: 30px;
     margin-bottom: 15px;
     color:white;
@@ -426,14 +411,11 @@ padding-left: 50px;
     color: orange;
     font-weight: 80px;
     padding-bottom: 50px;
-    
   }
 
   #foot .footer ul li{
     margin: 15px 0;
     text-align: left;
-    
-    
   }
   #foot .footer ul li a{
     font-size: 30px;
@@ -443,16 +425,11 @@ padding-left: 50px;
     text-align: left;
     flex-direction: column;
   }
-
-  
-
   #foot .footsection p{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin: 20px 0;
-
-    
   }
   #foot .social-icons a{
     margin: 0 10px;
@@ -460,38 +437,26 @@ padding-left: 50px;
     transition: transform 0.3s;
     font-size: 25px;
     color: gray;
-
   }
   #foot .social-icons a:hover{
     transform: scale(1.1);
   }
-
-
-  
 #foot .ff{
    font-size: 25px;
-    color: white;
-    
+    color: white; 
 }
 #foot .fff{
     padding-top: 55px ;
     display: flex;
     flex-direction: column;
-    
 }
-
-
-
-
 /* ABOUT PAGE */
 
-#About  .orange-text{
-    
+#About  .orange-text{   
     color:red;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 #About{
     background-image: url(https://t3.ftcdn.net/jpg/08/96/67/10/360_F_896671047_Dfrkzf0hKs7CQVcXMVo0oxgkVfJYyhv1.jpg);
@@ -511,7 +476,6 @@ padding-left: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     font-size: 40px;
 } 
 #About .content2{
@@ -567,27 +531,15 @@ padding-left: 50px;
     text-align: center;
     flex-direction: row;
 }
-
-
-/* // ABOUT  */
-
 #About2 .container{
     display: flex;
     width: 100%;
 }
 #About2  .center{
    font-size: 45px;
-   padding-left: 45px;
-    /* text-align: center; */
-}
-#About2 .container {
-    /* display: flex;
-    justify-content: space-between; */
-    /* padding: 40px; */
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
-    background-color: #fff;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   padding-left: 45px;}
+#About2 .container {background-color: #fff;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #About2.content {
@@ -595,9 +547,7 @@ padding-left: 50px;
 }
 
 #About2 .content h1 {
-    font-size: 2.5rem;
-    /* margin-bottom: 20px; */
-}
+    font-size: 2.5rem;}
 
 #About2 .highlight {
     color: #f78b1f;
@@ -614,11 +564,8 @@ padding-left: 50px;
 }
 
 #About2 .feature {
-    /* display: flex;
-    align-items: flex-start; */
     gap: 15px;
     width: calc(50% - 10px);
-    /* padding: 10px 0; */
 }
 
 #About2 .feature img {
@@ -627,7 +574,6 @@ padding-left: 50px;
 }
 
 #About2 .feature h3 {
-    /* margin-bottom: 8px; */
     font-size: 1.1rem;
 }
 
@@ -645,7 +591,6 @@ padding-left: 50px;
 
 .featured-products {
     text-align: center;
-     /* max-width: 1200px;  */
     margin: 0 auto;
     width: 100%;
     padding-top: 100px;
@@ -658,7 +603,6 @@ padding-left: 50px;
     padding-top: 50px;
     padding-right: 1200px;
     font-family: Arial, Helvetica, sans-serif;
-
   }
   
   .products {
@@ -683,11 +627,6 @@ padding-left: 50px;
     position: relative;
   }
   
-  .product-image img {
-    
-    
-  }
-
   .product h1 {
     font-size: 30px;
     margin: 10px 0;
@@ -710,12 +649,7 @@ padding-left: 50px;
     color: #333;
     margin-top: 10px;
   }
-
-#About3 .products .product3{
-
-}
-  
-#About6{
+ #About6{
     background-image: url(https://t3.ftcdn.net/jpg/08/96/67/10/360_F_896671047_Dfrkzf0hKs7CQVcXMVo0oxgkVfJYyhv1.jpg);
     width: 100%;
     height: 600px; 
@@ -739,7 +673,6 @@ padding-left: 50px;
     justify-content: center;
     gap: 35px;
     flex-wrap: wrap;
-   
  }
 th {
    
@@ -793,7 +726,6 @@ button:hover {
   }
   #signin .signin-container{
     width: 600px;
-    /* padding: 20px; */
   }
   
   #signin .signin-container .pp{
@@ -815,7 +747,6 @@ button:hover {
     border: 1px solid black;
     border-radius: 5px;
     font-size: 25px;
-    /* outline: none; */
     color:gray;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -834,8 +765,6 @@ button:hover {
     display: inline-block;
     font-size: 25px;
     border-radius: 20px;
-   
-  
   }
   #signin .signin-button:hover{
     background-color:grey;
@@ -857,8 +786,6 @@ button:hover {
   #signin .create-account-text a:hover{
     text-decoration: underline;
   }
-
-
 
   #signup .signup-container{
     justify-content: center;
@@ -931,8 +858,6 @@ button:hover {
     display: inline-block;
     font-size: 25px;
     border-radius: 20px;
-   
-  
   }
   
   #signup .signup-container .create-btn:hover{
@@ -974,28 +899,21 @@ button:hover {
     align-items: center;
    flex-direction: row;
 }
-
-
 #main .c1{
   color: black;
   font-size: 20px;
   
 }
-
-
-#main .orange-text{
-    
+#main .orange-text{ 
     color:red;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 #main2 .content2{
   padding-top: 10%;
  display: flex;
  flex-direction: column;
- /* width: 90%; */
 }
 #main2 .c2 {
 display: flex;
@@ -1008,7 +926,6 @@ font-size: 25px;
   padding-left: 20%;
 display: flex;
 justify-content: center;
-
 width: 80%;
 font-size: 20px;
 }
@@ -1025,52 +942,36 @@ font-size: 20px;
 .c4 .input-field1{
   width: 40%;
   height: 50px;
-  
 }
 
 .c4 .input-field2{
   width: 40%;
   height: 50px;
-
 }
 .c4 .input-field3{
   width: 40%;
   height: 50px;
-
 }
 .c4 .input-field4{
   width: 40%;
   height: 50px;
- 
 }
 .c4 .input-field5{
   width: 70%;
-  height: 100px;
- 
-  
+  height: 100px;  
 }
 
 .content3 .p1 img{
-  
     width: 50px;
     height: 50px;
-
 }
-
-
-.content3 .p3 img{
-  
+.content3 .p3 img{ 
   width: 50px;
   height: 50px;
-
 }
-
-
-.content3 .p2 img{
-  
+.content3 .p2 img{ 
   width: 50px;
   height: 50px;
-
 }
 .content3 .c5{
   display: flex;
@@ -1089,7 +990,7 @@ font-size: 20px;
 .c5 .p3{
   width: 20%;
 }
-
+     /* MEDIA QUERY */
   @media (max-width: 469px) { 
     #nav{
     background-color: white;
@@ -1342,17 +1243,14 @@ width: 98%;
   #foot .footer-section .ppp{
     font-size: 70%;
     margin-bottom: 15px;
-
     flex-direction: column;
   }
 #foot .footersection2 p{
     display: none;
-    
   }
 
   #foot .footer p{
-   display: none;
-    
+   display: none;   
   }
 
   #foot .footsection p{
@@ -1365,14 +1263,11 @@ width: 100%;
 #foot .ff{
    font-size: 70%;
     color: white;
-    
 }
-  
 #foot .fff{
     padding-top: 0px ;
     display: flex;
     flex-direction: column;
-    
 }
 #About{
     background-repeat: no-repeat;
@@ -1382,12 +1277,8 @@ width: 100%;
 }
 #About2{
     display: flex;
-    /* flex-direction: column; */
-    width: 100%;
-  
+    width: 100%; 
 }
-
-
 #About2 .features {
     padding-left: 10%;
     display: flex;
@@ -1398,8 +1289,6 @@ width: 100%;
 #About2 .features p{
   width: 190%;
 }
-
-
 #About2 .image-section {
     display: none;
 }
@@ -1409,18 +1298,12 @@ width: 100%;
 }
 .product2 h2{
   text-align: center;
- 
 }
-
 .price{
   text-align: center;
    font-size: 35px;
 }
- 
-/* #About2 .image-section img{
-    height: 300px;
-    width: 8%;
-} */
+
 .products {
     display: flex;
     flex-direction: column;
@@ -1439,14 +1322,12 @@ text-align: center;
 }
 
 #About6{
- 
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 600px;
 }
 #About4 .d {
-
     width: 97%;
 }
 
@@ -1479,18 +1360,6 @@ text-align: center;
 }
 .c5 .p3{
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
-
-
   }
-
-
-  
-  /* .media1{
-    display: block;
-}
-#nav{
-    display: none;
-} */
