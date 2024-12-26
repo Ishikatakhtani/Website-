@@ -260,11 +260,11 @@ padding-left: 250px;
     width: 100%;
 display: flex;
 align-items: center; 
-padding-left: 250px;
+padding-left: 50px;
 }
 
 #Home9 .content{
-    padding-left: 250px;
+    padding-left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1311,7 +1311,7 @@ padding-top: 0px;
 padding-bottom: 0px;
 }
 #Home9{
-padding-left: 10%;
+padding-left: 0%;
 width: 98%;
 }
 #Home9 .content{
@@ -1363,13 +1363,13 @@ width: 98%;
     justify-content: center;
     flex-wrap: wrap;
     padding-left: 5%;
-   width: 100%%;
+   width: 100%;
    text-align: center;
     /* size:200px; */
   }
 #foot .footer-section{
     margin: 0px;
-    max-width: 100%%;
+    max-width: 100%;
   }
 
   #foot .footer-section .pp{
@@ -1422,7 +1422,7 @@ width: 100%;
 #About2{
     display: flex;
     /* flex-direction: column; */
-    width: 98%;
+    width: 100%;
   
 }
 
@@ -1474,34 +1474,17 @@ width: 100%;
 
 
 #About6{
-    
-
+ 
     background-repeat: no-repeat;
     background-size: cover;
-    width: 98%;
-    height: 600px; 
-
+    width: 100%;
+    height: 600px;
 }
 #About4 .d {
 
     width: 97%;
 }
 
- 
-/* 
-#About {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 600px;
-} */
-
-#About6 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 99%;
-    height: 600px;
- }
  
 #About4 .d1 tr td img {
    height: 50%;
@@ -1517,7 +1500,7 @@ width: 100%;
  #main{
   background-repeat: no-repeat;
   background-size: cover;
-  width: 98%;
+  width: 100%;
   height: 600px; 
 }
 
