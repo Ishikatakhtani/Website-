@@ -1150,8 +1150,8 @@ font-size: 20px;
     display: flex;
     gap: 15px;
     margin-right: 0px;
-    color:rgb(2, 2, 50);;
-    background-color: white
+    color:rgb(2, 2, 50);
+    background-color: white;
 }
 #Home  button {
     background-color: #f28123;
@@ -1270,19 +1270,24 @@ nav ul li{
        gap: 20%;
        width: 98%;
 }
+#Home7 .content h1{
+ justify-content: center;
+}
 #Home7 .content{
     width: 98%;
     padding-left: 10%;
 }
 #Home7 .video{
     padding-left: 10%;
-    width: 98%;
+    width: 100%;
      }
     #Home8 {
     padding-left: 10%;
     display: flex;
     flex-direction: column;
 width: 98%;
+padding: 0%;
+height: 300px;
     }
     #Home8 .Discount{
         display: flex;
@@ -1311,7 +1316,7 @@ padding-top: 0px;
 padding-bottom: 0px;
 }
 #Home9{
-padding-left: 0%;
+padding-left: 5%;
 width: 98%;
 }
 #Home9 .content{
