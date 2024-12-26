@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 label #btn{
     color: black;
     display: none;}
@@ -33,38 +32,29 @@ label #cancel{
 
 #nav nav ul{
     list-style: none;
-    /* align-items: right; */
-    /* margin-left: 15%; */
     display: flex;
     gap: 50px;
-    /* margin-right: 50px; */
-
 }
 #nav nav ul a{
-    
     text-decoration: none;
     color: white;
 }
 * a{
-    
     text-decoration: none;
     color: white;
 }
 
 * a:hover{
-    color: red;
-   
+    color: red;  
 }
 #nav nav ul a:hover{
-    color: red;
-   
+    color: red; 
 }
 #Home{
-    background-image: url(https://st5.depositphotos.com/55599836/75713/i/450/depositphotos_757133156-stock-photo-fresh-red-strawberries-water.jpg);
+    background-image: url(https://i.pinimg.com/736x/dd/1c/e1/dd1ce1196b10de804bf610f18f0ccf9d.jpg);
     width: 100%;
     height: 100vh; 
     border: 3px ;
-    /* background-image:url(download.jpeg) ; */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -78,34 +68,19 @@ label #cancel{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     font-size: 40px;
 } 
 #Home  .content2{
     color:white;
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* padding-left: 120px; */
     font-size: 50px;
-    
 } 
 #Home  .content2{
     color:white;
     text-align: center;
-    
     font-size: 50px;
     
 } 
-/* #Home  .content2{
-    color:white;
-    text-align: center;
-    
-    font-size: 50px;
-    
-}  */
-
 #Home  button {
     background-color: #f28123;
    color: #f28123;
@@ -127,7 +102,6 @@ label #cancel{
 }
 #Home3 .orange-text{
 color:#f28123;
-
 }
 
 #Home3 h1{
@@ -144,16 +118,13 @@ font-size: 15px;
 }
 
 #Home4 .Fruits{
-    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
     padding-left: 95px;
-    
 }
-#Home4 button{
-    
+#Home4 button{ 
     background-color: #f28123;
     color: white;
      text-align: center;
@@ -170,32 +141,19 @@ font-size: 15px;
     padding-top: 70px;
   padding-left: 250px;
   background-color: #f5f5ff;
-  /* flex-direction: row; */
   gap: 200px;
 }
-/* #Home5{
-    font-size: 30px;
-   
-    height: 500px ;
-    width: 500px;
-} */
 #Home5 .orange-text2{
     color:#f28123;
     font-size: 40px;
-   
     }
 #Home5 .img{
     height: 200px;
     width: 100px;
 }
-/* #Home5 .img{
-    border: black solid 1px;
-} */
 #Home5 .content3{
-    /* border: black solid 1px; */
     display: flex;
     width: 750px;
-    /* justify-content: center; */
     font-size: 20px;
     flex-direction: column;
 }
@@ -216,7 +174,6 @@ height: 80px;
     #Home5 .sec{
         padding-top: 25px;
    padding-left: 30px;
-       
         border:darkorange solid 3px;
         width:80px;
         height: 80px;
@@ -227,10 +184,6 @@ height: 80px;
             gap: 2px;
           }
 #Home5 button{
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; */
     background-color: #f28123;
     color: white;
      text-align: center;
@@ -240,8 +193,6 @@ height: 80px;
      padding-bottom: 5px;
     border-radius: 20px;
 }
-
-
 #Home7{
     padding-top: 100px;
         display: flex;
@@ -253,7 +204,6 @@ height: 80px;
 padding-top: 100px; 
 height: 500px;
 width: 500px;
-
 }
 #Home7 .video{
    padding-left: 250px;
@@ -275,8 +225,6 @@ width: 500px;
     height: 500px;
     width: 100%;
     background-color: #f5f5ff;
-/* display: flex;
-align-items: center; */
 padding-left: 250px;
 
 }
@@ -296,10 +244,6 @@ padding-left: 250px;
     font-size: 30px;
 }
 #Home8 button{
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; */
     background-color: #f28123;
     color: white;
      text-align: center;
@@ -314,13 +258,10 @@ padding-left: 250px;
 #Home9{
     height: 300px;
     width: 100%;
-   /* border: #f28123 solid 1px;  */
 display: flex;
 align-items: center; 
 padding-left: 250px;
-
 }
-
 
 #Home9 .content{
     padding-left: 250px;
@@ -336,21 +277,12 @@ padding-left: 250px;
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    /* height: 50px;
-    width:100% ;
-    border: #f28123 solid 1px;
-    */
 }
 
 #Home9 .orange-text{
     color: #f28123;
 }
 
-/* #Home10{
-   
-    width: 100%;
-   border: #f28123 solid 1px; 
-} */
 #Home10 .direction{
     padding-left: 40px;
     display: flex;
@@ -360,8 +292,6 @@ padding-left: 250px;
 #Home10 .grapes{
     height: 450px;
     width: 450px;
-   /* border: black solid 1px; */
-   
  }
  #Home10 .black{
      font-size: 20px;
@@ -375,8 +305,6 @@ padding-left: 250px;
  #Home10 .man{
     height: 450px;
     width: 500px;
-   /* border: black solid 1px; */
-  
  }
  #Home10 .black1{
      font-size: 20px;
@@ -390,8 +318,6 @@ padding-left: 250px;
  #Home10 .fruit{
     height: 450px;
     width: 500px;
-   /* border: black solid 1px; */
-  
  }
  #Home10 .black2{
      font-size: 20px;
@@ -409,7 +335,6 @@ padding-left: 250px;
     justify-content: space-evenly;
  }
  #Home11 button{
-    
     background-color: #f28123;
     color: white;
      text-align: center;
@@ -426,15 +351,12 @@ padding-left: 250px;
     width: 100%;
 }
 #Home12 div{
-    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-   
 }
-
-
 #foot{
+  display: flex;
     background-color: rgb(2, 2, 50);
     padding: 90px 60px;
     text-align: center;
@@ -454,21 +376,10 @@ padding-left: 250px;
     margin: 10px;
     
   }
-  #foot .footer-section2{
-    max-width: 400px;
-    margin: 10px;
-    
-  }
   #foot .footer-section .pp{
     font-size: 50px;
     margin-bottom: 60px;
     color: orange;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-    #foot .footer-section2 .pp1{
-    font-size: 50px;
-    margin-bottom: 60px;
-   color: orange;
     font-family: Arial, Helvetica, sans-serif;
   }
   #foot .footer-section .ppp{
@@ -480,16 +391,6 @@ padding-left: 250px;
     flex-direction: column;
   }
 
-  #foot .footer-section2 .ppp1{
-    font-size: 20px;
-    margin-bottom: 15px;
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    flex-direction: column;
-  }
-
-  
   #foot .footersection2 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -1233,27 +1134,21 @@ font-size: 20px;
     }
   }  */
 
-  @media (max-width: 469px) {
-    /* *{
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-    }  */
-   
+  @media (max-width: 469px) { 
     #nav{
-        
     background-color: white;
     position: absolute;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
     }
     
 #nav nav ul{
     position: absolute;
     list-style: none;
-    gap: 1%;
-    /* align-items: right; */
-    /* margin-left: 15%; */
+    /* gap: 1%; */
     display: flex;
-    gap: 5px;
+    gap: 15px;
     margin-right: 0px;
     color:rgb(2, 2, 50);;
     background-color: white
@@ -1272,28 +1167,26 @@ label #btn{
     position: absolute;
     font-size: 17px;
     height: 50px;
-   
     text-align: center;
     margin-right: 0px; 
     line-height: 30px;
     display: flex;
-   
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     left:-150%;
     font-size: 25px;
 }
 #nav nav ul a{
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: rgb(2, 2, 50);;
+  
 }
 nav ul li{
     display: block;
 }
 *a:hover{
     color: orangered;
-   
 }
 #check:checked ~  ul{
             left:0; }
@@ -1303,20 +1196,15 @@ nav ul li{
         #check :checked ~  label #cancel{
             display:block;
         }
-    
 #Home{
     border:none
 }
-
 #Home .content1{
     width: 98%;
 }
-
-
 #Home .content2{
     width: 98%;
 }
-
 
 #Home .content2 button{
     width: 98%;
@@ -1338,28 +1226,15 @@ nav ul li{
     width: 98%;
     padding-left: 0px;   
 }
-
-
-#nav {
-    width: 98%;
-    padding: 0px;
-    margin: 0px;
-}
-
-
-
-
 #Home10 .man {
     height: 450px;
     width: 98%;
-    /* border: black solid 1px; */
 }
 
 #Home3 h1 {
     padding-left: 0px;
 }
 #Home3 {
-    
     padding-left: 0px;
 }
 #Home3 p{
@@ -1377,7 +1252,6 @@ nav ul li{
   padding-left: 0px;
   background-color: #f5f5ff;
   flex-direction: column;
-  /* flex-direction: row; */
   padding-left: 10%;
   gap: 20%;
   width: 98%;
@@ -1409,9 +1283,7 @@ nav ul li{
     display: flex;
     flex-direction: column;
 width: 98%;
-
     }
-    
     #Home8 .Discount{
         display: flex;
         flex-direction: column;
@@ -1422,8 +1294,6 @@ width: 98%;
 width: 98%;
     }
 #Home8 .Discount .content{
-    
-
   font-size: 20px;  
 }
 
@@ -1432,33 +1302,24 @@ width: 98%;
 }
 
 #Home8 .img{
-   display: none;
+display: none;
 }
-
-
-#Home8 button{
-    
-    
-     padding-left:0px;
-     padding-right: 0px;
-     padding-top: 0px;
-     padding-bottom: 0px;
-    
+#Home8 button{   
+padding-left:0px;
+padding-right: 0px;  
+padding-top: 0px;
+padding-bottom: 0px;
 }
-
 #Home9{
-    padding-left: 10%;
-    width: 98%;
+padding-left: 10%;
+width: 98%;
 }
 #Home9 .content{
     padding-left: 0px;
 }
 #Home9 .content1{
     padding-left: 0px;
-    
 }
-  
-
 #Home10{
     padding-left: 10%;
     display: flex;
@@ -1492,138 +1353,72 @@ width: 98%;
     display: flex;
     flex-direction:column ;
 }
-
 #foot{
-    display: flex;
-    flex-direction: row;
-    padding: 0px 0px;
-    width: 98%;
+  padding: 0px 0px;
+  width: 100%;
 }
-#foot .footer-container {
+
+  #foot .footer-container {
     display: flex;
-   
-  flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-   
-   
+    padding-left: 5%;
+   width: 100%%;
+   text-align: center;
     /* size:200px; */
   }
-
 #foot .footer-section{
-    /* max-width: 15%; */
     margin: 0px;
-    display: flex;
-    flex-direction: row;
-    font-size: 5px;
-    display: none;
-    padding: 0%;
+    max-width: 100%%;
   }
-  #foot .footer-section2{
-    /* max-width: ; */
-    font-size: 25px;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-   
-  }
+
   #foot .footer-section .pp{
+    padding-top: 10%;
+    font-size: 80%;
     margin-bottom: 0px;
-    font-size: 5px;
-    display: none;
   }
-  #foot .footer-section .pp1{
-    margin-bottom: 0px;
-    font-size: 1px;
-    display: flex;
-    flex-direction: row;
-    display: none;
-  }
-
-  #foot .footer-section .ppp{
-    margin-bottom: 0px; 
-    font-size: 5px;
-    display: none;
-  }
-
-  #foot .footer-section .ppp1{
-    font-size: 1px;
-    margin-bottom: 0px; 
-    display: flex;
-    flex-direction: row;
-    display: none;
-  }
-  #foot .footersection2 p{
-    padding-bottom: 10px;
-    font-size: 10px;
-    display: none;
-  }
-  #foot .footersection2 ul li{
-    margin: 0px 0px;
-    display: none;
- }
-
   
- #foot .footersection2 ul li a {
-    margin-bottom: 0px;
-    font-size: 25px;
-    display: flex;
-    flex-direction: row;
-    display: none;
-  }
-  #foot .footer p{
-    padding-bottom: 0px;
-    font-size: 15px;
-    display: none;
-    width: 20%;
-    display: none;
-  }
+  #foot .footer-section .ppp{
+    font-size: 70%;
+    margin-bottom: 15px;
 
-  #foot .footer ul li{
-    margin: 0px 
+    flex-direction: column;
+  }
+#foot .footersection2 p{
+    display: none;
     
   }
 
-  #foot .footer ul li a{
-    font-size: 25px;
-    margin-bottom: 0px;
-    display: flex;
-    flex-direction: row;
-    display: none;
+  #foot .footer p{
+   display: none;
+    
   }
 
   #foot .footsection p{
-    font-size: 25px;
-    margin: 0px 0;
-    display: none;
-    
+    font-size: 90%;
+    margin: 0px ;
+width: 100%;
+    text-align: center;
   }
-  #foot .social-icons a{
-    margin: 0 0px;
-    font-size: 15px;
-    display: none;
-  }
-   
+ 
 #foot .ff{
-    font-size: 15px;
-    display: none;
-     
- }
-
-
+   font-size: 70%;
+    color: white;
+    
+}
+  
 #foot .fff{
     padding-top: 0px ;
     display: flex;
-    flex-direction: row;
-    display: none;
+    flex-direction: column;
+    
 }
 #About{
     background-repeat: no-repeat;
     background-size: cover;
-    width: 98%;
+    width: 100%;
     height: 600px; 
 }
-
-
 #About2{
     display: flex;
     /* flex-direction: column; */
