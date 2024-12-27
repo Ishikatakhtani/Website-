@@ -996,9 +996,6 @@ font-size: 20px;
   width: 20%;
 }
 
-@keyframes identifier {
-  
-}
      /* MEDIA QUERY */
   @media (max-width: 470px) { 
     #nav{
@@ -1375,6 +1372,11 @@ text-align: center;
   height: 600px; 
 }
 
+
+#m .mm{
+  width: 100%;
+  height: 200px;
+}
 .c5 .p1{
   display: flex;
   flex-direction: column;
@@ -1387,4 +1389,6 @@ text-align: center;
   display: flex;
   flex-direction: column; 
 }
+
+
   }
