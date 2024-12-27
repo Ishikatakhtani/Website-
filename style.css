@@ -220,14 +220,14 @@ width: 500px;
     height: 500px;
     width: 100%;
     background-color: #f5f5ff;
-padding-left: 250px;
+/* padding-left: 250px; */
 }
 #Home8 .Discount{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 450px;
+    gap: 20%;
 }
 #Home8 .Discount .orange-text{
     color: #f28123;
@@ -236,6 +236,10 @@ padding-left: 250px;
     height: 200px;
     width: 400px;
     font-size: 30px;
+}
+
+#Home8 .bt{
+  padding-left: 20%;
 }
 #Home8 button{
     background-color: #f28123;
@@ -1144,77 +1148,93 @@ nav ul li{
     width: 100%;
      }
     #Home8 {
-    padding-left: 10%;
+    /* padding-left: 10%; */
     display: flex;
     flex-direction: column;
-width: 98%;
+    justify-content: center;
+width: 100%;
 padding: 0%;
 height: 300px;
     }
     #Home8 .Discount{
         display: flex;
         flex-direction: column;
-    width: 98%;
+    width: 100%;
         gap: 0px;
+        justify-content: center;
     }
     #Home8 .Discount .content{
-width: 98%;
+width: 100%;
+justify-content: center;
+font-size: 20px;  
     }
-#Home8 .Discount .content{
-  font-size: 20px;  
-}
 
 #Home8 h1{
-    width: 98%;
+    width: 100%;
+    justify-content: center;
 }
 
 #Home8 .img{
 display: none;
+}
+
+#Home8 .bt{
+  justify-content: center;
 }
 #Home8 button{   
 padding-left:0px;
 padding-right: 0px;  
 padding-top: 0px;
 padding-bottom: 0px;
+justify-content: center;
 }
 #Home9{
-padding-left: 5%;
-width: 98%;
+  padding-left: 0%;
+/* padding-left: 5%; */
+width: 100%;
+justify-content: center;
+height: 20%;
 }
 #Home9 .content{
     padding-left: 0px;
 }
 #Home9 .content1{
-    padding-left: 0px;
+    padding-left: 2%;
 }
 #Home10{
-    padding-left: 10%;
     display: flex;
     flex-direction: column;
-    width: 98%;
+    justify-content: center;
+    width: 100%;
 }
 #Home10 .direction{
-    padding-left: 0px;
+   padding-left: 7%;
     display: flex;
     flex-direction: column;
-   gap: 10px;
-   width: 98%;
+    justify-content: center;
+   /* gap: 10%; */
+   width: 100%;
 }
 #Home10 .grapes{
-    width: 98%;
+    width: 100%;
+       height: 20%;
 }
 #Home10 .man {
     width: 98%;
+       height: 20%
  }
 
 #Home10 .fruit {
-    width: 98%;
+    width: 100%;
+      justify-content: center;
+         height:20%;
  }
  #Home11{
-    width: 98%;
+    width: 100%;
+  
  }
  #Home12{
-    width: 98%;
+    width: 100%;
  }
 #Home12 div {
     display: flex;
